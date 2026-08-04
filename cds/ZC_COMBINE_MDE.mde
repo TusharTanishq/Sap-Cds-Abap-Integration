@@ -1,1 +1,48 @@
+@Metadata.layer: #CUSTOMER
+annotate view ZC_COMBINE_AUTO
+  with
+{
+  @UI.selectionField: [{ position: 10 }]
+  @UI.lineItem: [{ position: 10, label: 'PO Number' }]
+  ebeln;
+
+  @UI.selectionField: [{ position: 20 }]
+  @UI.lineItem: [{ position: 20, label: 'Company Code' }]
+  bukrs;
+
+  @UI.selectionField: [{ position: 30 }]
+  @UI.lineItem: [{ position: 30, label: 'Supplier' }]
+  lifnr;
+
+  @UI.selectionField: [{ position: 40 }]
+  @UI.lineItem: [{ position: 40, label: 'Material' }]
+  matnr;
+
+  @UI.lineItem: [{ position: 50, label: 'PO Item' }]
+  ebelp;
+
+  @UI.lineItem: [{ position: 60, label: 'Material Type' }]
+  mtart;
+
+  @UI.lineItem: [{ position: 70, label: 'Plant' }]
+  werks;
+
+  @UI.lineItem: [{ position: 80, label: 'Quantity' }]
+  menge;
+
+  @UI.lineItem: [{ position: 90, label: 'UoM' }]
+  meins;
+
+  @UI.lineItem: [{ position: 100, label: 'Net Price' }]
+  netpr;
+
+  @UI.lineItem: [{ position: 110, label: 'Net Value' }]
+  netwr;
+
+  @UI.lineItem: [{ position: 120, label: 'Price Unit' }]
+  peinh;
+
+  @UI.lineItem: [{ position: 130, label: 'SLED/BBD' }]
+  sled_bbd;
+}
 
